@@ -1,0 +1,579 @@
+header {
+    background: rgb(51 33 29);
+    padding: 12px 0;
+}
+
+.caixa-menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logotipo {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+
+nav {
+    position: absolute;
+    top: 30%;
+    right: 180px;
+    left: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 120px;
+}
+
+nav .menu-topo a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9a7457;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.logotipo:hover {
+    width: 42px;
+    height: 42px;
+    opacity: 0.6;
+}
+
+.icon-social {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 83%;
+    opacity: 0.8;
+}
+
+.icon-social img {
+    width: 25px;
+    height: 25px;
+    padding: 0 0 0 20px;
+}
+
+
+.icon-social img:hover {
+    width: 27px;
+    height: 27px;
+    opacity: 0.6;
+}
+
+.primeira-parte {
+    background-image: url(background1.jpg) ;
+    background-size: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.primeiraparte-background {
+    background: rgb(155 114 82 / 30%);
+    padding: 1px 0 10.5% 0;
+}
+
+.titulo-principal {
+    font-size: 90px;
+    font-weight: bold;
+    margin: 1.5em 0 0 0 ;
+    color: rgb(247 189 138 / 48%);
+}
+
+.sub-titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5em 0 1em 0 ;
+    color: rgb(247 189 138 / 48%);
+}
+
+.agendamento {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.agendamento a {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(247 189 138 / 48%);
+    border: 4px solid rgb(247 189 138 / 48%);
+    padding: 20px 80px 20px 80px;
+    border-radius: 10px;
+}
+
+.agendamento a:hover {
+    color: rgb(247 189 138 / 70%);
+    border: 4px solid rgb(247 189 138 / 70%);
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
+.agendamento a:active {
+    color: rgb(45 33 33);;
+    border: 4px solid rgb(45 33 33);
+}
+
+.segundaparte-background {
+    background: rgb(51 33 29);
+    padding: 0 0 0 0;
+    border-top: 1px solid #694433;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servicos-conteudo {
+    margin: 0em 0;
+}
+
+.servicos-conteudo li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 5.5%;
+}
+
+.servicos-conteudo img {
+    margin: 2.1em 0 0 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.8;
+}
+
+.servicos h2 {
+    margin: 1.5em 0 1.5em 0;
+    color: #9a7457;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.produto-descricao {
+    box-sizing: border-box;
+    text-align: center;
+    color: #9a7457;
+    font-size: 14px;
+    width: 200px;
+    padding: 0 0 1.6em 0;
+}
+
+.servicos-conteudo img:hover {
+    width: 85px;
+    height: 85px;
+    opacity: 0.6;
+}
+
+.background-segunda {
+    background: linear-gradient(#33211d 30%, #52362b 80%);
+    border-top: 1px solid #a27e60;
+}
+
+.segunda-parte {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-sobre {
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #9a7457;
+    margin: 2em 0 1.5em 0;
+}
+.paragrafo-sobre {
+    font-size: 16px;
+    color: #9a7457;
+    margin: 0 5% 4em 5%;
+}
+
+.sobre-studio li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 2.5%;
+}
+
+.sobre-studio img {
+    width: 250px;
+    height: 100%;
+    margin: 0 0 5em 0;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.sobre-studio img:hover {
+    width: 255px;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.terceiraparte-background{
+    background: #33211d;
+    padding: 0 0 4em 0;
+    border-top: 1px solid #a27e60;
+}
+
+.equipamentos {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-equipamentos {
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #a27e60;
+    padding: 2em 0 1.5em 0;
+}
+
+.nossos-equipamentos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 3% 5% 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #583a2e;
+    border-radius: 10px;
+}
+
+.nossos-equipamentos img {
+    width: 150px;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.nossos-equipamentos a{
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(252 201 157);
+    text-align: center;
+}
+
+.nossos-equipamentos a:hover {
+    color: rgb(104 74 56 / 100%); 
+    background: rgb(51 33 29 / 50%);
+    font-size: 22px;
+    transition: 300ms;
+}
+
+.nossos-equipamentos img:hover {
+    width: 155px;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.nossos-equipamentos li:hover {
+    border: 2px solid #412e2681;
+}
+
+.nossos-equipamentos a:active {
+    color: rgb(51 33 29 / 100%); 
+    background: rgb(104 74 56 / 50%);
+}
+
+.quartaparte-background {
+    background: linear-gradient(#33211d, #583a2e);
+    border-top: 1px solid #55382d;
+    height: 100%;
+}
+
+.clientes {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-cliente {
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #a27e60;
+    padding: 2em 0 2.5em 0
+}
+
+.img-cliente {
+    float: left;
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;  
+    margin: 0 100px 0 0;
+    opacity: 0.6;
+}
+
+.img-cliente:hover {
+    height: 305px;
+    width: 305px;  
+    opacity: 0.4;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #a27e60;
+    margin: 0.5em 0 1.5em 0;
+    font-weight: bold;
+}
+
+.paragrafo-cliente {
+    font-size: 18px;
+    color: #fcc99d;
+    margin: 0 0 60px 0;
+}
+
+.outros-artistas {
+    text-align: center;
+}
+
+.outros-artistas li {
+    padding: 0 0 130px 0;
+}
+
+.outros-artistas a {
+    text-align: center;
+    font-size: 28px;
+    color: #fcc99d;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #a27e60;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.outros-artistas a:hover {
+    color: #684a38; 
+    border: 4px solid #684a38;
+    font-size: 30px;
+    transition: 300ms;
+}
+
+.outros-artistas a:active {
+    color: #33211d;
+    border: 4px solid #33211d;
+}
+
+.quintaparte-background {
+    background: rgb(88 58 46 / 38%);
+    padding: 1px 0 0.5% 0;
+}
+
+.valores {
+    border-top: 1px solid #977054;
+    background-image: url(studio4.jpg) ;
+    background-size: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.caixa-valores {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-valores {
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #9a7457;
+    padding: 2.5em 0 2em 0
+}
+
+.valores-produtos li {
+    display: inline;
+    margin: 0 2px 0 2px;
+}
+
+.valores-produtos a {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #fcc99d;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(155 114 82 / 80%);
+    border-radius: 10px;
+    padding: 8% 5% 8% 5%;
+}
+
+.caixa-valores p {
+    padding: 0 0 8em 0;
+}
+
+.valores-produtos a:hover {
+    color: rgb(104 74 56 / 100%); 
+    background: rgb(51 33 29 / 50%);
+    font-size: 22px;
+    transition: 300ms;
+}
+
+.valores-produtos a:active {
+    color: rgb(51 33 29 / 100%); 
+    background: rgb(104 74 56 / 50%);
+}
+
+.sexta-background {
+    border-top: 1px solid #694433;
+    background: linear-gradient(#33211d 40%, #33211deb 100%);
+}
+
+.info-agendamento{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-info {
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #9a7457;
+    padding: 3em 0 1em 0
+}
+
+.subtitulo-info {
+    text-align: center;
+    font-size: 22px;
+    color: #9a7457;
+    margin: 0 0 1.5em 0;
+    font-weight: bold;
+}
+
+.paragrafo-info {
+    text-align: center;
+    font-size: 18px;
+    color: #9a7457;
+}
+
+.formula {
+    padding: 50px 0;
+    width: 100%;
+}
+
+form {
+    margin: 20px 20px 20px 0;
+    opacity: 0.8;
+}
+
+form legend {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: inline-block;
+    margin: 0 0 24px;
+    padding: 10px 25px;
+    width: 45%;
+}
+
+input::placeholder {
+    color: #33211d;
+  }
+
+textarea::placeholder {
+    color: #33211d;
+}
+
+.enviar-direito {
+    width: 50.7%;
+    text-align: right;
+}
+
+.enviar {
+    font-size: 16px;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    background: #33211d;
+    border: none;
+    border-radius: 2px;
+    transition: 0.6s all;
+    cursor: pointer;
+    color: #9a7457;
+}
+
+.enviar:hover {
+    background: #472e28;
+    transform: scale(1.2);
+    margin: 0 15px 0 0;
+}
+
+.mapa {
+    display: inline-block;
+    width: 49.7%;
+    float: right;
+    padding: 70px 0 0 0;
+    vertical-align: top;
+}
+
+.sextaparte-backgroundgeral {
+    background: linear-gradient(#33211deb 40%, #33211deb 100%);
+    padding: 0 0 10px 0;
+}
+
+.sextaparte-background {
+    width: 940px;
+    margin: 0 auto;
+    background: rgb(51 33 29);
+}
+
+.servicos-info {
+    text-align: center;
+    margin: 0 0 4em 0;
+}
+
+.servicos-info li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 35px 0 30px 50px;
+    vertical-align: top;
+}
+
+.estudio-info {
+    box-sizing: border-box;
+    text-align: center;
+    color: #9a7457;
+    font-size: 14px;
+    width: 250px;
+    padding: 0 50px 1.6em 0;
+    border-right: 1px solid rgb(68 50 43);
+    line-height: 2;
+}
+
+.descri-horario {
+    box-sizing: border-box;
+    color: #9a7457;
+    font-size: 14px;
+    width: 390px;
+    line-height: 2;
+}
+
+
+footer {
+    border-top: 1px solid #694433;
+    text-align: center;
+    background: #33211d;
+    padding: 40px 0;
+    color: #9a7457;
+    line-height: 2;
+}
